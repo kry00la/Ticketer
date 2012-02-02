@@ -7,6 +7,15 @@ gem 'rails', '3.1.1'
 
 gem 'sqlite3'
 
+group :test, :development do
+  gem 'rspec-rails', '~>2.5'
+end
+
+group :test do
+  gem 'cucumber-rails'
+  gem 'capybara'
+  gem 'database_cleaner'
+end
 
 # Gems used only for assets and not required
 # in production environments by default.
@@ -29,8 +38,14 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'ruby-debug19', :require => 'ruby-debug'
+=begin
 
 group :test do
   # Pretty printed test output
   gem 'turn', :require => false
 end
+=end
+
+
+
+
