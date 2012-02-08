@@ -24,6 +24,7 @@ group :assets do
   gem 'coffee-rails', '~> 3.1.1'
   gem 'dynamic_form'
   gem 'uglifier', '>= 1.0.3'
+  gem "factory_girl_rails", "~> 1.2"
 end
 
 gem 'jquery-rails'
